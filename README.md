@@ -5,7 +5,7 @@ This package implements the machine-learning method described by Gao et al (2016
 ## Installation
 
 * Make sure you have **_R >= 3.2.0_**.
-* Please make sure you have **devtools** installed in your R and do the following:
+* Make sure you have **devtools** installed and do the following:
 ```R
 library(devtools)
 install_github("qunfengdong/DMBC")
@@ -15,14 +15,16 @@ install_github("qunfengdong/DMBC")
 
 There are totally 6 functions included in the package. The most important one is **dmbc_predict**, which will predict probability for a test set from DMBC model given a training set.
 
-* **best_cm**: Confusion Matrix for the Best Model
-* **CalPrb**: Calculate Likelihood based on Dirichlet-multinomial distribution estimated parameters
-* **Cal_AUC**: Calculate Area Under the ROC Curve from Leave-One-Out Cross-Validation
-* **dmbc_predict**: Predict probability from DMBC model
-* **FS**: Filter and Feature Selection based on Wilcoxon Rank-Sum test
-* **loocv**: Leave one out cross-validation
-* __test__: Example Testing Data
-* __training__: Example Training Data
+1. **best_cm**: Confusion Matrix for the Best Model
+2. **CalPrb**: Calculate Likelihood based on Dirichlet-multinomial distribution estimated parameters
+3. **Cal_AUC**: Calculate Area Under the ROC Curve from Leave-One-Out Cross-Validation
+4. **dmbc_predict**: Predict probability from DMBC model
+5. **FS**: Filter and Feature Selection based on Wilcoxon Rank-Sum test
+6. **loocv**: Leave one out cross-validation
+
+Example data sets:
+* *_test_*: Example Testing Data
+* *_training_*: Example Training Data
 
 ## Contributors
 
